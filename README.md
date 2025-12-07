@@ -1,27 +1,10 @@
-[lijikun index.html](https://github.com/user-attachments/files/24015382/lijikun.index.html)
 <!DOCTYPE html>
-<header>
-  <div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
-    <!-- 个人照片 -->
-    <img src="个人简历照片.jpg" alt="Profile Photo" 
-         style="width: 160px; height: 200px; object-fit: cover; border-radius: 8px; border: 1px solid #ddd;" />
-
-    <!-- 基本文字信息 -->
-    <div>
-      <h1 style="margin: 0;">李 纪堃</h1>
-      <div class="pinyin">LI JIKUN</div>
-      <div class="meta">
-        男 ｜ 未婚 ｜ 出生年月：2001-03-11（24岁）<br />
-        户籍：安徽省 ｜ 现住址：日本国千叶县船桥市前原西<br />
-        目前职业状态：应届生
-      </div>
-      <div class="small">简历更新日期：2025-07-04</div>
-    </div>
-  </div>
-
-  <div style="margin-top: 16px; border-bottom: 2px solid #e0e0e0;"></div>
-</header>
-
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>李纪堃 - 个人简历</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
       margin: 0;
@@ -120,15 +103,25 @@
 </head>
 <body>
   <div class="container">
+    <!-- 头部：照片 + 基本信息 -->
     <header>
-      <h1>李 纪堃</h1>
-      <div class="pinyin">LI JIKUN</div>
-      <div class="meta">
-        男 ｜ 未婚 ｜ 出生年月：2001-03-11（24岁）<br />
-        户籍：安徽省 ｜ 现住址：日本国千叶县船桥市<br />
-        目前职业状态：应届生
+      <div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
+        <!-- 个人照片 -->
+        <img src="个人简历照片.jpg" alt="Profile Photo" 
+             style="width: 160px; height: 200px; object-fit: cover; border-radius: 8px; border: 1px solid #ddd;" />
+
+        <!-- 基本文字信息 -->
+        <div>
+          <h1 style="margin: 0;">李 纪堃</h1>
+          <div class="pinyin">LI JIKUN</div>
+          <div class="meta">
+            男 ｜ 未婚 ｜ 出生年月：2001-03-11（24岁）<br />
+            户籍：安徽省 ｜ 现住址：日本国千叶县船桥市<br />
+            目前职业状态：应届生
+          </div>
+          <div class="small">简历更新日期：2025-07-04</div>
+        </div>
       </div>
-      <div class="small">简历更新日期：2025-07-04</div>
     </header>
 
     <!-- 基本信息 -->
@@ -140,8 +133,8 @@
         <div><span class="label">性别：</span>男</div>
         <div><span class="label">婚育状况：</span>未婚</div>
         <div><span class="label">户籍：</span>安徽省</div>
-        <div><span class="label">现住址：</span>日本国千叶县船桥市</div> 
-
+        <div><span class="label">现住址：</span>日本国千叶县船桥市</div>
+      </div>
     </section>
 
     <!-- 教育经历 -->
@@ -269,57 +262,4 @@
           时间：2026年3月<br />
           题目：水环境条件对水下光无线供电性能的影响分析
         </div>
-        <ul class="list">
-          <li>基于水下光无线供能与通信技术，针对深海应用环境提出优化机制，系统揭示水流动态对激光传输性能的关键影响。</li>
-          <li>机理分析表明，高速水流会增强水分子扰动，显著提高光电子散射概率，从而影响能量传输效率。</li>
-          <li>进一步考察水体中盐类离子浓度对激光传输特性的影响：在含盐环境下激光到达率略有降低，但随盐类离子浓度增加其传输特性并未发生显著变化。</li>
-          <li>研究结果为深海设备光无线供能系统的抗湍流、稳相传输设计提供了重要理论依据与技术参考。</li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>本科毕业论文</h3>
-        <div class="sub-info">
-          时间：2024年3月<br />
-          题目：水下光无线供电的 GaInP 太阳能电池低温性能
-        </div>
-        <ul class="list">
-          <li>针对深海与偏远区域电力供给受限问题，探索水下光无线供电（OWPT）的应用潜力。</li>
-          <li>通过实验分析 GaInP 太阳能电池在低温环境下的光电转换特性。</li>
-          <li>系统研究不同激光波长在深海水体中的传输效率及其与传播距离的关联，重点考察水体浊度变化对激光传输性能的影响。</li>
-          <li>研究结果为实现深海探测设备“无缆化”与可持续能源供给提供理论基础与技术支撑。</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- 资格证书 与 语言能力 -->
-    <section class="section">
-      <h2>资格证书与语言能力</h2>
-      <ul class="list">
-        <li>日语能力考试 N1（120+）｜取得时间：2022.12</li>
-        <li>TOEIC 550+ ｜取得时间：2023</li>
-        <li>驾照：计划于 2026 年取得</li>
-        <li>海外经验：长期在日本留学与生活</li>
-      </ul>
-    </section>
-
-    <!-- 专业技能 -->
-    <section class="section">
-      <h2>专业技能</h2>
-      <ul class="list">
-        <li><b>光谱分析：</b> 熟练使用 Thorlabs 相关设备进行光谱和光强测量。</li>
-        <li><b>电路设计：</b> 使用 iCircuit 进行电路仿真与原理图设计。</li>
-        <li><b>嵌入式开发：</b> 熟练使用 Arduino 进行控制程序开发与硬件调试。</li>
-        <li><b>绘图与建模：</b> 能够使用 AutoCAD 进行工程绘图，了解 SolidWorks 3D 建模及 Thingiverse 等平台的3D打印工作流。</li>
-        <li><b>光伏系统设计：</b> 了解 PVsyst 进行光伏系统设计与性能评估。</li>
-      </ul>
-    </section>
-
-    <footer class="section">
-      <div class="small">
-        如需更多信息或完整项目资料，可在面试或沟通中进一步说明。
-      </div>
-    </footer>
-  </div>
-</body>
-</html>
+        <ul class="li
