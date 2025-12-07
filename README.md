@@ -1,11 +1,27 @@
 [lijikun index.html](https://github.com/user-attachments/files/24015382/lijikun.index.html)
 <!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <title>李纪堃 - 个人简历</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
+<header>
+  <div style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap;">
+    <!-- 个人照片 -->
+    <img src="个人简历照片.jpg" alt="Profile Photo" 
+         style="width: 160px; height: 200px; object-fit: cover; border-radius: 8px; border: 1px solid #ddd;" />
+
+    <!-- 基本文字信息 -->
+    <div>
+      <h1 style="margin: 0;">李 纪堃</h1>
+      <div class="pinyin">LI JIKUN</div>
+      <div class="meta">
+        男 ｜ 未婚 ｜ 出生年月：2001-03-11（24岁）<br />
+        户籍：安徽省 ｜ 现住址：日本国千叶县船桥市前原西<br />
+        目前职业状态：应届生
+      </div>
+      <div class="small">简历更新日期：2025-07-04</div>
+    </div>
+  </div>
+
+  <div style="margin-top: 16px; border-bottom: 2px solid #e0e0e0;"></div>
+</header>
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
       margin: 0;
